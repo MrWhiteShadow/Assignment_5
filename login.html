@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#181818">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #181818;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: rgb(218, 218, 218);
+}
+.container {
+  padding: 16px;
+  width: 50%;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+    </style>
+    <div style="width: 100%; height: 80px; padding: 16px; background-color: ; text-align: center; font-size: 40px; color: beige"><b>Welcome To Login Page</b></div>
+   <form action="index.html">
+       <div style="background-color: ; width: 25%; padding: 16px; height: 250px; float: left;"></div>
+    <div class="container" style="float: left;">
+        <label for="uname"><b style="color: aliceblue;">Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b style="color: aliceblue;">Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label style="color: aliceblue;">
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+      <div style="background-color: ; width: 19%; padding: 24px; height: 250px; float: left;"></div>
+      <div style="background-color: ; width: 103%; height: 40px; padding: 15px; float: left; text-align: center; font-size: 30px; color: bisque;"> Don't Have An Account <br> Click To</div>
+      <form>
+          <div style="width: 25%; height: 10px; padding: 16px; background-color: ; float: left;"></div>
+        <div class="container" style="float: left;">
+            <button type="submit">Sign-Up</button>
+        <label style="color: aliceblue;">
+        </div>
+      </form>
+   </form>
+</body>
+</html>
